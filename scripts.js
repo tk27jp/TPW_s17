@@ -11,17 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // ============================================
 
     const studentData = {
-        name: 'Juan Carlos Pérez González',
-        code: 'U20201234',
+        name: 'Dalia Sahomi Pariachi Herrera',
+        code: 'U23225643',
         career: 'Ingeniería de Sistemas',
-        location: 'Lima, Perú',
+        location: 'Chimbote, Perú',
         links: {
-            github: 'https://github.com/usuario',
+            github: 'https://github.com/settings/profile',
             linkedin: 'https://linkedin.com/in/usuario',
             portfolio: 'https://miportafolio.com',
-            email: 'mailto:u20201234@utp.edu.pe',
-            cv: 'documents/cv.pdf',
-            instagram: 'https://instagram.com/usuario'
+            email: 'mailto:u23225643@utp.edu.pe',
+            cv: 'https://www.facebook.com/dalia.pariachiherrera?locale=es_LA',
+            instagram: 'https://www.instagram.com/tk__2.7/'
         }
     };
 
