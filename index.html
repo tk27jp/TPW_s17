@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Digital - Estudiante UTP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Logo UTP -->
+            <div class="logo-container">
+                <img src="image.png" alt="Logo UTP" class="logo">
+            </div>
+
+            <!-- Foto de perfil -->
+            <div class="profile-photo">
+                <div class="photo-placeholder">
+                    <img src="image copy.png" alt="Foto de perfil" class="profile-image">
+                </div>
+            </div>
+
+            <!-- Información del estudiante -->
+            <div class="student-info">
+                <h1 class="student-name" id="studentName">Juan Carlos Pérez González</h1>
+                <p class="student-code">
+                    <i class="bi bi-person-badge"></i>
+                    <span id="studentCode">U20201234</span>
+                </p>
+                <p class="student-career">
+                    <i class="bi bi-mortarboard"></i>
+                    <span id="studentCareer">Ingeniería de Sistemas</span>
+                </p>
+            </div>
+
+            <!-- Enlaces sociales -->
+            <div class="links-container">
+                <a href="#" class="link-item" data-platform="github">
+                    <div class="link-icon">
+                        <i class="bi bi-github"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">GitHub</span>
+                        <span class="link-subtitle">Ver mis proyectos</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+
+                <a href="#" class="link-item" data-platform="linkedin">
+                    <div class="link-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">LinkedIn</span>
+                        <span class="link-subtitle">Perfil profesional</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+
+                <a href="#" class="link-item" data-platform="portfolio">
+                    <div class="link-icon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">Portafolio Web</span>
+                        <span class="link-subtitle">Mis trabajos destacados</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+
+                <a href="#" class="link-item" data-platform="email">
+                    <div class="link-icon">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">Email</span>
+                        <span class="link-subtitle">Contáctame por correo</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+
+                <a href="#" class="link-item" data-platform="cv">
+                    <div class="link-icon">
+                        <i class="bi bi-file-earmark-text"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">Descargar CV</span>
+                        <span class="link-subtitle">Curriculum Vitae PDF</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+
+                <a href="#" class="link-item" data-platform="instagram">
+                    <div class="link-icon">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                    <div class="link-content">
+                        <span class="link-title">Instagram</span>
+                        <span class="link-subtitle">Sígueme en redes</span>
+                    </div>
+                    <i class="bi bi-arrow-right link-arrow"></i>
+                </a>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    Lima, Perú
+                </p>
+                <p class="year">2024 - Estudiante UTP</p>
+            </div>
+        </div>
+
+        <!-- Botón compartir -->
+        <button class="share-button" id="shareButton">
+            <i class="bi bi-share"></i>
+            Compartir tarjeta
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
