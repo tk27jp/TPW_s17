@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Chimbote, Perú',
         links: {
             github: 'https://github.com/settings/profile',
-            linkedin: 'https://linkedin.com/in/usuario',
-            portfolio: 'https://miportafolio.com',
+            linkedin: 'https://www.linkedin.com/in/dalia-pariachi-herrera-10874739a/',
+            portfolio: 'https://github.com/tk27jp/Taller_web.git',
             email: 'mailto:u23225643@utp.edu.pe',
-            cv: 'https://www.facebook.com/dalia.pariachiherrera?locale=es_LA',
+            cv: 'https://www.canva.com/design/DAG5qEHrcZA/ZKGxRvQVlJRYyII0CRc1-g/view?utm_content=DAG5qEHrcZA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0e2d062fa9',
             instagram: 'https://www.instagram.com/tk__2.7/'
         }
     };
